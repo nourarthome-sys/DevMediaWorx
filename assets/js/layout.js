@@ -39,7 +39,7 @@
   }
   window.DMW.waLink = wa;
 
-  var brand = '<a class="brand" href="index.html" aria-label="DevMediaWorx home"><img src="assets/img/icon.png" alt="" width="50" height="40"><span class="wordmark">DEV<b>MEDIA</b>WORX</span></a>';
+  var brand = '<a class="brand" href="index.html" aria-label="DevMediaWorx home"><img src="assets/img/icon.png" alt="" width="50" height="40"><img src="assets/img/wordmark.png" alt="DevMediaWorx" style="height:22px;width:auto"></a>';
 
   /* Background atmosphere */
   var atmos = '<div class="atmos" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div><div class="grain" aria-hidden="true"></div><canvas id="particles" aria-hidden="true"></canvas><div class="progress" aria-hidden="true"></div><div class="cursor" aria-hidden="true"></div>';
