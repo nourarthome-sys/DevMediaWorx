@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Contact | Start a Project | DevMediaWorx</title>
+<meta name="description" content="Tell us about your project. Reach DevMediaWorx on WhatsApp, phone or email, or send the form for a proposal within one working day.">
+<link rel="canonical" href="https://devmediaworx.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DevMediaWorx">
+<meta property="og:title" content="Contact | Start a Project | DevMediaWorx">
+<meta property="og:description" content="Tell us about your project. Reach DevMediaWorx on WhatsApp, phone or email, or send the form for a proposal within one working day.">
+<meta property="og:url" content="https://devmediaworx.com/contact.html">
+<meta property="og:image" content="https://devmediaworx.com/assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#050918">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Michroma&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<!-- Libraries -->
+<link rel="stylesheet" href="assets/vendor/lenis/lenis.css">
+
+<!-- Site -->
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js"></script>
+<script src="assets/js/tracking.js"></script>
+
+</head>
+<body>
+
+<main id="main">
+
+  <section class="page-hero" data-section="contact-hero" data-accent="cyan">
+    <div class="wrap">
+      <div class="crumbs" data-anim="rise"><a href="index.html">Home</a><span>/</span><span>Contact</span></div>
+      <h1 class="h1" data-anim="chars">Tell us what <span class="grad">you're building</span></h1>
+      <p class="lead" data-anim="rise" data-delay=".2">Send a few lines about your project. We reply within one working day with questions or a first proposal.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" data-section="contact" data-accent="cyan">
+    <div class="wrap contact-grid">
+      <div style="display:grid;gap:28px">
+        <div class="channels" data-anim="stagger">
+          <a class="channel" href="#" data-wa="Hi DevMediaWorx, I'd like to discuss a project.">
+            <span class="ic" style="color:#25D366"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></span>
+            <span><small>WhatsApp · fastest reply</small><strong data-c="contact.whatsappDisplay">+20 122 224 3852</strong></span>
+          </a>
+          <a class="channel" href="#" data-tel>
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <span><small>Phone</small><strong data-c="contact.phoneDisplay">+20 122 224 3852</strong></span>
+          </a>
+          <a class="channel" href="#" data-mail>
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+            <span><small>Email</small><strong data-c="contact.email">hello@devmediaworx.com</strong></span>
+          </a>
+        </div>
+        <div class="card" data-anim="rise">
+          <span class="tag">What happens next</span>
+          <ul class="tick-list">
+            <li>We read your message and reply within one working day</li>
+            <li>A short call to understand the goal</li>
+            <li>A written proposal with a fixed price and timeline</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="form-card" data-anim="rise" data-delay=".1">
+        <form id="lead-form" class="form" novalidate>
+          <div class="field" data-field="name">
+            <label for="f-name">Your name <em>*</em></label>
+            <input class="input" id="f-name" name="name" autocomplete="name" placeholder="Jane Smith">
+            <span class="err" aria-live="polite"></span>
+          </div>
+          <div class="field" data-field="company">
+            <label for="f-company">Company</label>
+            <input class="input" id="f-company" name="company" autocomplete="organization" placeholder="Company name">
+            <span class="err"></span>
+          </div>
+          <div class="field" data-field="email">
+            <label for="f-email">Email <em>*</em></label>
+            <input class="input" id="f-email" name="email" type="email" autocomplete="email" placeholder="you@company.com">
+            <span class="err" aria-live="polite"></span>
+          </div>
+          <div class="field" data-field="phone">
+            <label for="f-phone">Phone / WhatsApp <em>*</em></label>
+            <div class="phone">
+              <button type="button" class="cc-btn" id="cc-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="Country code"></button>
+              <ul class="dropdown" id="cc-list" role="listbox" tabindex="-1" aria-label="Country code"></ul>
+              <input class="input" id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="100 123 4567">
+              <input type="hidden" name="country_code" value="+20">
+            </div>
+            <span class="err" aria-live="polite"></span>
+          </div>
+          <div class="field full" data-field="service">
+            <label id="service-label">What do you need? <em>*</em></label>
+            <div class="select">
+              <button type="button" class="select-btn" id="service-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="service-label service-btn"><span>Choose a service</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+              <ul class="dropdown" id="service-list" role="listbox" tabindex="-1" aria-labelledby="service-label"></ul>
+              <input type="hidden" name="service" value="">
+            </div>
+            <span class="err" aria-live="polite"></span>
+          </div>
+          <div class="field full" data-field="message">
+            <label for="f-msg">About the project <em>*</em></label>
+            <textarea class="input" id="f-msg" name="message" placeholder="What are you building, who is it for, and when do you need it?"></textarea>
+            <span class="err" aria-live="polite"></span>
+          </div>
+          <div class="field full">
+            <button class="btn btn-primary magnetic" type="submit" data-cta="Send project details">Send project details
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+        </form>
+
+        <div class="form-success" role="status" aria-live="polite">
+          <svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><circle cx="50" cy="50" r="44" stroke-width="3" stroke-dasharray="280" stroke-dashoffset="0"/><path d="M31 51l13 13 26-28" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="200" stroke-dashoffset="0"/></svg>
+          <h3 class="h3">Thanks, <span data-success-name>there</span>. Your details are ready.</h3>
+          <p>Tap below to send them on WhatsApp for the fastest reply. We usually answer the same working day.</p>
+          <a class="btn btn-wa" href="#" target="_blank" rel="noopener" data-wa-final>Send on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION ============ -->
+  <section class="section tight" data-section="location" data-accent="blue">
+    <div class="wrap">
+      <div class="location" data-anim="rise">
+        <div class="loc-info">
+          <span class="eyebrow">Where we are</span>
+          <h2 class="h2" style="font-size:clamp(24px,2.6vw,34px)">Based in Heliopolis, working worldwide</h2>
+          <dl>
+            <div><dt>Address</dt><dd data-c="contact.address">12 Boutros Ghali St., Roxy, Heliopolis, Cairo, Egypt</dd></div>
+            <div><dt>Hours</dt><dd data-c="contact.hours">Sunday – Thursday, 10:00 – 18:00 (GMT+3)</dd></div>
+            <div><dt>Email</dt><dd data-c="contact.email">hello@devmediaworx.com</dd></div>
+          </dl>
+          <a class="btn btn-ghost magnetic" href="#" data-maplink data-directions style="align-self:flex-start">Get directions
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></a>
+        </div>
+        <div class="map" data-map><span class="map-fallback">ROXY · HELIOPOLIS · CAIRO</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Libraries -->
+<script src="assets/vendor/gsap/gsap.min.js"></script>
+<script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/gsap/SplitText.min.js"></script>
+<script src="assets/vendor/gsap/CustomEase.min.js"></script>
+<script src="assets/vendor/gsap/Observer.min.js"></script>
+<script src="assets/vendor/lenis/lenis.min.js"></script>
+<!-- Site -->
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/motion.js"></script>
+</body>
+</html>
